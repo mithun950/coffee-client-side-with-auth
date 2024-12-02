@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Swal from 'sweetalert2'
+import Header from '../Header';
 
 const AddCoffee = () => {
 
@@ -42,6 +43,7 @@ const AddCoffee = () => {
     }
     return (
         <div>
+        
            <h2>Add Coffee</h2> 
            <form onSubmit={handleAddCoffee}> 
             <div className="text-center mt-20 bg-[#F4F3F0]  w-10/12 mx-auto p-20">
